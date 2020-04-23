@@ -1,6 +1,6 @@
 # El Juego de la Vida de Conway
 
-[Demo Online](https://priceless-jennings-580a3d.netlify.app/)
+# [Demo Online](https://priceless-jennings-580a3d.netlify.app/)
 
 * *Un homenaje a John Conway. Sólo por diversión.*
 ---
