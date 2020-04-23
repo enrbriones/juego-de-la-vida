@@ -10,5 +10,5 @@
 </style>
 
 <div
-  style="background:{value === 0 ? 'black' : 'white'}"
+  style="background:{value === 0 ? 'black' : '#f2f2f2'}"
   on:click={() => matrix.toggle(x, y)} />

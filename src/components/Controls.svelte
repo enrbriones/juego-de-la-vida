@@ -25,6 +25,6 @@
   </button>
   <button on:click={() => matrix.reset()}>
     <span class="fa fa-eraser" />
-    Reset
+    Clear
   </button>
 </div>

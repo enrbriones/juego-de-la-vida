@@ -12,23 +12,139 @@ import Controls from './Controls.svelte'
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
     color: #f2f2f2;
     margin: 0;
     padding: 0;
     font-weight: 400;
     text-transform: uppercase;
     flex-basis: auto;
+    line-height: normal;
   }
 
   a {
     justify-self: end;
-    color: white;
+    /* color: white; */
+    color: #EA80FC;
+    animation:colorchange 10s infinite alternate;
+    -webkit-animation:colorchange 10s infinite alternate;
   }
 
   a:hover {
-    color: #f2f2f2;
+    color: #BDBDBD;
   }
+
+  
+    @-webkit-keyframes colorchange {
+      0% {
+        color: #EA80FC;
+      }
+      
+      10% {
+        
+        color: #B388FF;
+      }
+      
+      20% {
+        
+        color: #8C9EFF;
+      }
+      
+      30% {
+        
+        color: #82B1FF;
+      }
+      
+      40% {
+        
+        color: #80D8FF;
+      }
+      
+      50% {
+        
+        color: #84FFFF;
+      }
+      
+      60% {
+        
+        color: #A7FFEB;
+      }
+      
+      70% {
+        
+        color: #B9F6CA;
+      }
+      80% {
+     
+        color: #CCFF90;
+      }
+      
+      90% {
+     
+        color: #F4FF81;
+      }
+      
+      100% {
+        
+        color: #FFFF8D;
+      }
+    }
+  
+    @keyframes colorchange {
+      0% {
+        color: #EA80FC;
+      }
+      
+      10% {
+        
+        color: #B388FF;
+      }
+      
+      20% {
+        
+        color: #8C9EFF;
+      }
+      
+      30% {
+        
+        color: #82B1FF;
+      }
+      
+      40% {
+        
+        color: #80D8FF;
+      }
+      
+      50% {
+        
+        color: #84FFFF;
+      }
+      
+      60% {
+        
+        color: #A7FFEB;
+      }
+      
+      70% {
+        
+        color: #B9F6CA;
+      }
+      80% {
+     
+        color: #CCFF90;
+      }
+      
+      90% {
+     
+        color: #F4FF81;
+      }
+      
+      100% {
+        
+        color: #FFFF8D;
+      }
+    }
 </style>
 
 <header>
