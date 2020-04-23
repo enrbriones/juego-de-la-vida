@@ -35,7 +35,7 @@ import Controls from './Controls.svelte'
   <h1>El Juego de la Vida</h1>
 
   <Controls/>
-  <a href="https://github.com/enrbriones" target="blank" title='Ver proyecto en GitHub' >
+  <a href="https://github.com/enrbriones/juego-de-la-vida" target="blank" title='Ver proyecto en GitHub' >
     <span class="fab fa-github fa-2x" />
   </a>
 </header>

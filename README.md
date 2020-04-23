@@ -1,5 +1,8 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# El Juego de la Vida de Conway
 
+[Demo Online](https://priceless-jennings-580a3d.netlify.app/)
+
+* *Un homenaje a John Conway. Sólo por diversión.*
 ---
 
 # svelte app
